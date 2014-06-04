@@ -124,6 +124,7 @@ module.exports = function(grunt) {
 					grunt.verbose.ok('There are' + (flag ? ' no' : '') + ' unstaged changes.');
 					return true;
 				} else {
+					shell.exec('git status');
 					failed('There are' + (flag ? '' : ' no') + ' unstaged changes.');
 					return false;
 				}
