@@ -81,10 +81,10 @@ Example:
 ```js
 checkrepo: {
 	foo: {
-		tagged: true, // Require last commit (HEAD) to be tagged
+		tagged: true, // Requires last commit (HEAD) to be tagged
 	},
 	bar: {
-		tagged: false, // Require last commit (head) to not be tagged
+		tagged: false, // Requires last commit (head) to not be tagged
 	}
 }
 ```
